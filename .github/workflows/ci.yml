@@ -2,9 +2,10 @@ name: CI Pipeline
 
 on:
   push:
-    branches: [ main ]
+    branches: [ codespace-musical-space-fortnight-p6r64vrjvjphr557 ]
   pull_request:
-    branches: [ main ]
+    branches: [ codespace-musical-space-fortnight-p6r64vrjvjphr557 ]
+  workflow_dispatch:  # optional, allows manual triggering via GitHub UI
 
 jobs:
   lint:
