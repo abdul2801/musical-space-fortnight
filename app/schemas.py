@@ -7,8 +7,12 @@ class ClipBase(BaseModel):
     duration: str
     audio_url: str
 
-class ClipCreate(ClipBase):
-    pass
+class ClipCreate(BaseModel):
+    title: str
+    description: str
+    genre: str
+    duration: str
+    audio_url: str
 
 class ClipOut(ClipBase):
     id: int

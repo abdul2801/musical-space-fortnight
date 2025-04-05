@@ -2,6 +2,7 @@ global:
   scrape_interval: 5s
 
 scrape_configs:
-  - job_name: 'fastapi-app'
+  - job_name: 'fastapi'
+    metrics_path: /metrics
     static_configs:
-      - targets: ["localhost:8000"]  # if running locally
+      - targets: ['localhost:8000']

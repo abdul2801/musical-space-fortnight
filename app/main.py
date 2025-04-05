@@ -6,7 +6,7 @@ from starlette_exporter import PrometheusMiddleware, handle_metrics
 app = FastAPI()
 app.include_router(router)
 
-app.add_middleware(PrometheusMiddleware)
+app.add_middleware(PrometheusMiddleware , group_paths=True)
 app.add_route("/metrics", handle_metrics)
 
 @app.on_event("startup")
