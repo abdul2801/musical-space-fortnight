@@ -15,7 +15,12 @@ This is a backend service built with **FastAPI** that allows users to stream aud
 
 ## Getting Started
 
-### 2. Start Services with Docker
+### 1. Populate PostreSql with sample data
+```bash
+python3 seed.py
+```
+
+### 2. Start Services with Docker and run FastApi
 
 ```bash
 pip install -r requirements.txt
