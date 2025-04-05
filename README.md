@@ -13,7 +13,7 @@ This is a backend service built with **FastAPI** that allows users to stream aud
 
 ---
 
-## ⚙️ Getting Started
+## Getting Started
 
 ### 2. Start Services with Docker
 
@@ -42,7 +42,7 @@ This will spin up:
 
 ---
 
-## 📊 Monitoring
+## Monitoring
 
 ### Prometheus
 - **URL:** `http://localhost:9090`
