@@ -1,7 +1,7 @@
 # Soundverse 
 
 This is a backend service built with **FastAPI** that allows users to stream audio clips and tracks the number of times each clip has been played. The system is also integrated with **Prometheus** for monitoring and **Grafana** for visualization.
-
+https://soundverse.serveo.net/
 ---
 
 ## Features
